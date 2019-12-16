@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("CharlotteWeb.txt")
+	file, err := os.Open("/Users/yeekuu/dev/go/src/golang-learn/word_statistics/CharlotteWeb.txt")
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "打开文件报错：%s\n", err)
 	}
